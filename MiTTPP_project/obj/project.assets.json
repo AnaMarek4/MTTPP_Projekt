@@ -1,0 +1,364 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Microsoft.CodeCoverage/16.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "build": {
+          "build/netstandard1.0/Microsoft.CodeCoverage.props": {},
+          "build/netstandard1.0/Microsoft.CodeCoverage.targets": {}
+        }
+      },
+      "Microsoft.NET.Test.Sdk/16.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeCoverage": "16.5.0"
+        },
+        "build": {
+          "build/net40/Microsoft.NET.Test.Sdk.props": {},
+          "build/net40/Microsoft.NET.Test.Sdk.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
+        }
+      },
+      "NUnit/3.13.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit.Analyzers/3.5.0": {
+        "type": "package"
+      },
+      "NUnit3TestAdapter/4.3.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "Selenium.Support/4.8.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.8.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net48/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net48/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.8.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net48/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net48/WebDriver.dll": {}
+        },
+        "build": {
+          "build/Selenium.WebDriver.targets": {}
+        }
+      },
+      "Selenium.WebDriver.GeckoDriver/0.32.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.GeckoDriver.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CodeCoverage/16.5.0": {
+      "sha512": "PM5YLtyN45EyUGePJpaNogndlaQPrMgQQXHKMhMESC6KfSVvt+j7+dxBi8NYC6X6dZVysf7ngwhSW3wwvPJRSQ==",
+      "type": "package",
+      "path": "microsoft.codecoverage/16.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.config",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.exe",
+        "build/netstandard1.0/CodeCoverage/amd64/covrun64.dll",
+        "build/netstandard1.0/CodeCoverage/amd64/msdia140.dll",
+        "build/netstandard1.0/CodeCoverage/codecoveragemessages.dll",
+        "build/netstandard1.0/CodeCoverage/covrun32.dll",
+        "build/netstandard1.0/CodeCoverage/msdia140.dll",
+        "build/netstandard1.0/Microsoft.CodeCoverage.props",
+        "build/netstandard1.0/Microsoft.CodeCoverage.targets",
+        "build/netstandard1.0/Microsoft.VisualStudio.TraceDataCollector.dll",
+        "build/netstandard1.0/cs/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/de/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/es/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/fr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/it/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ja/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ko/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pl/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pt-BR/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ru/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/tr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "microsoft.codecoverage.16.5.0.nupkg.sha512",
+        "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.NET.Test.Sdk/16.5.0": {
+      "sha512": "yHZOhVSPuGqgHi+KhHiAZqNY08avkQraXKvgKgDU8c/ztmGzw7gmukkv49EaTq6T3xmp4XroWk3gAlbJHMxl8w==",
+      "type": "package",
+      "path": "microsoft.net.test.sdk/16.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net40/Microsoft.NET.Test.Sdk.props",
+        "build/net40/Microsoft.NET.Test.Sdk.targets",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.fs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.vb",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.targets",
+        "build/uap10.0/Microsoft.NET.Test.Sdk.props",
+        "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
+        "microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+        "microsoft.net.test.sdk.nuspec"
+      ]
+    },
+    "NUnit/3.13.3": {
+      "sha512": "KNPDpls6EfHwC3+nnA67fh5wpxeLb3VLFAfLxrug6JMYDLHH6InaQIWR7Sc3y75d/9IKzMksH/gi08W7XWbmnQ==",
+      "type": "package",
+      "path": "nunit/3.13.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "icon.png",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.13.3.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnit.Analyzers/3.5.0": {
+      "sha512": "uvYCAqtZrY9RZc1ErVREvcYr828uy4RmTZYfMPN5FrahvJp/b2+QEgsJISzU3cbxLc9IBBlEOBa9d4t6ejFM2Q==",
+      "type": "package",
+      "path": "nunit.analyzers/3.5.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/nunit.analyzers.dll",
+        "docs/README.md",
+        "images/nunit_256.png",
+        "license.txt",
+        "nunit.analyzers.3.5.0.nupkg.sha512",
+        "nunit.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "NUnit3TestAdapter/4.3.1": {
+      "sha512": "R+bGFtsUpLWywjT1nb3xMmoVa2AIw6ClIGC+XjW9lYE8hwJeos+NdR/mtg4RXbBphmC9epALrnUc6MM7mUG8+Q==",
+      "type": "package",
+      "path": "nunit3testadapter/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.core.dll",
+        "build/net35/nunit.engine.dll",
+        "build/net35/testcentric.engine.metadata.dll",
+        "build/netcoreapp3.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp3.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp3.1/NUnit3TestAdapter.props",
+        "build/netcoreapp3.1/nunit.engine.api.dll",
+        "build/netcoreapp3.1/nunit.engine.core.dll",
+        "build/netcoreapp3.1/nunit.engine.dll",
+        "build/netcoreapp3.1/testcentric.engine.metadata.dll",
+        "nunit3testadapter.4.3.1.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
+    "Selenium.Support/4.8.0": {
+      "sha512": "5sibZXRPiG/MpHGJzu4S4xkjCbQE04WTO0jWMug7+7DWI3Sqz1aL0dryEZxovQjUb09KB8MpJZtc7NBabJdvtg==",
+      "type": "package",
+      "path": "selenium.support/4.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net46/WebDriver.Support.dll",
+        "lib/net47/WebDriver.Support.dll",
+        "lib/net48/WebDriver.Support.dll",
+        "lib/net5.0/WebDriver.Support.dll",
+        "lib/net6.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.1/WebDriver.Support.dll",
+        "selenium.support.4.8.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/4.8.0": {
+      "sha512": "12/UPRx8JHOKnQTW4vTeLT+gkMPF/2RJFbGn6rGLj9NBffd62PdXYoFTWFeOwywSfNpWcJVyjzk9MXoJjrA0Ww==",
+      "type": "package",
+      "path": "selenium.webdriver/4.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.WebDriver.targets",
+        "images/icon.png",
+        "lib/net45/WebDriver.dll",
+        "lib/net46/WebDriver.dll",
+        "lib/net47/WebDriver.dll",
+        "lib/net48/WebDriver.dll",
+        "lib/net5.0/WebDriver.dll",
+        "lib/net6.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.1/WebDriver.dll",
+        "manager/linux/selenium-manager",
+        "manager/macos/selenium-manager",
+        "manager/windows/selenium-manager.exe",
+        "selenium.webdriver.4.8.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.GeckoDriver/0.32.0": {
+      "sha512": "zMbEhdUtBMbdq7ZV+TAywJKkPLN0xBo+71tjkf5tKMd0V8docrJcMNOJOGwlJFc7iHjHqLBDSHAFNHm6uUbtKQ==",
+      "type": "package",
+      "path": "selenium.webdriver.geckodriver/0.32.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/DefinePropertiesGeckoDriver.targets",
+        "build/Selenium.WebDriver.GeckoDriver.targets",
+        "driver/linux64/geckodriver",
+        "driver/mac64/geckodriver",
+        "driver/mac64arm/geckodriver",
+        "driver/win32/geckodriver.exe",
+        "driver/win64/geckodriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.geckodriver.0.32.0.nupkg.sha512",
+        "selenium.webdriver.geckodriver.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "NUnit >= 3.13.3",
+      "NUnit.Analyzers >= 3.5.0",
+      "NUnit3TestAdapter >= 4.3.1",
+      "Selenium.Support >= 4.8.0",
+      "Selenium.WebDriver >= 4.8.0",
+      "Selenium.WebDriver.GeckoDriver >= 0.32.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\AMarek\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\AMarek\\source\\repos\\MiTTPP_project\\MiTTPP_project.csproj",
+      "projectName": "MiTTPP_project",
+      "projectPath": "C:\\Users\\AMarek\\source\\repos\\MiTTPP_project\\MiTTPP_project.csproj",
+      "packagesPath": "C:\\Users\\AMarek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AMarek\\source\\repos\\MiTTPP_project\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\AMarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[16.5.0, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.13.3, )"
+          },
+          "NUnit.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.5.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[4.3.1, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.8.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.8.0, )"
+          },
+          "Selenium.WebDriver.GeckoDriver": {
+            "target": "Package",
+            "version": "[0.32.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

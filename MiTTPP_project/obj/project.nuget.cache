@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "DmD2E4LmOarcWFNgl2bS00hAuoJeHct1lLW5r56YQziC6Cg5Jg6yt/Gp4OzGM8GgJmCkvKV52GWELIw/8/OglQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AMarek\\source\\repos\\MiTTPP_project\\MiTTPP_project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AMarek\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\AMarek\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\AMarek\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\AMarek\\.nuget\\packages\\nunit.analyzers\\3.5.0\\nunit.analyzers.3.5.0.nupkg.sha512",
+    "C:\\Users\\AMarek\\.nuget\\packages\\nunit3testadapter\\4.3.1\\nunit3testadapter.4.3.1.nupkg.sha512",
+    "C:\\Users\\AMarek\\.nuget\\packages\\selenium.support\\4.8.0\\selenium.support.4.8.0.nupkg.sha512",
+    "C:\\Users\\AMarek\\.nuget\\packages\\selenium.webdriver\\4.8.0\\selenium.webdriver.4.8.0.nupkg.sha512",
+    "C:\\Users\\AMarek\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.32.0\\selenium.webdriver.geckodriver.0.32.0.nupkg.sha512"
+  ],
+  "logs": []
+}
